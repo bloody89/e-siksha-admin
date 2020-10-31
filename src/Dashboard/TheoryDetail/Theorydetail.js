@@ -13,7 +13,7 @@ class TheoryDetail extends Component {
             topicName: '',
             selectedSubtopic: {},
             subTopicMap: new Map(),
-            pageNo: '',
+            pageNo: 0,
             description: ''
         }
         this.handleTopicSelect = this.handleTopicSelect.bind(this);
@@ -180,64 +180,64 @@ class TheoryDetail extends Component {
                                     onChange={this.handleSelectPages}
                                 >
                                     <option name="default" value="">Select the Value</option>
-                                    <option name='basic' value="1">
+                                    <option name='basic' value=1>
                                         Page 1
 									</option>
-                                    <option name='basic' value="2">
+                                    <option name='basic' value=2>
                                         Page 2
 									</option>
-                                    <option name='basic' value="3">
+                                    <option name='basic' value=3>
                                         Page 3
 									</option>
-                                    <option name='basic' value="4">
+                                    <option name='basic' value=4>
                                         Page 4
 									</option>
-                                    <option name='basic' value="5">
+                                    <option name='basic' value=5>
                                         Page 5
 									</option>
-                                    <option name='basic' value="6">
+                                    <option name='basic' value=6>
                                         Page 6
 									</option>
-                                    <option name='basic' value="7">
+                                    <option name='basic' value=7>
                                         Page 7
 									</option>
-                                    <option name='basic' value="8">
+                                    <option name='basic' value=8>
                                         Page 8
 									</option>
-                                    <option name='basic' value="9">
+                                    <option name='basic' value=9>
                                         Page 9
 									</option>
-                                    <option name='basic' value="10">
+                                    <option name='basic' value=10>
                                         Page 10
 									</option>
-                                    <option name='basic' value="11">
+                                    <option name='basic' value=11>
                                         Page 11
 									</option>
-                                    <option name='basic' value="12">
+                                    <option name='basic' value=12>
                                         Page 12
 									</option>
-                                    <option name='basic' value="13">
+                                    <option name='basic' value=13>
                                         Page 13
 									</option>
-                                    <option name='basic' value="14">
+                                    <option name='basic' value=14>
                                         Page 14
 									</option>
-                                    <option name='basic' value="15">
+                                    <option name='basic' value=15>
                                         Page 15
 									</option>
-                                    <option name='basic' value="16">
+                                    <option name='basic' value=16>
                                         Page 16
 									</option>
-                                    <option name='basic' value="17">
+                                    <option name='basic' value=17>
                                         Page 17
 									</option>
-                                    <option name='basic' value="18">
+                                    <option name='basic' value=18>
                                         Page 18
 									</option>
-                                    <option name='basic' value="19">
+                                    <option name='basic' value=19>
                                         Page 19
 									</option>
-                                    <option name='basic' value="20">
+                                    <option name='basic' value=20>
                                         Page 20
 									</option>
                                 </select>
